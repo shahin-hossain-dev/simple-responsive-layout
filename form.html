@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive form</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .login-form-container {
+            /* border: 1px solid blue; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* border: 1px solid crimson; */
+            gap: 10px;
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Profile</a>
+        </div>
+        <a href="">Login</a>
+    </nav>
+    <section class="login-form-container">
+        <form class="login-form">
+            <h2>Login form</h2>
+            <input type="email" name="" id="" placeholder="Your Email">
+            <input type="password" name="" id="" placeholder="Your Password ">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
+</html>
